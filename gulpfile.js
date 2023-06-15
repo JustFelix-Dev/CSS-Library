@@ -15,10 +15,11 @@
       return src('felix/**/*.scss')
       .pipe(sass())
       .pipe(purgecss({content:['*.html']}))
-      .pipe(dest('css'))
+      .pipe(dest('dist'))
   }
 
   function watchTask(){
+    
     watch(['felix/**/*.scss'],buildStyles)
   }
 
