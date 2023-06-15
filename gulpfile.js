@@ -23,4 +23,4 @@
   }
 
   exports.default = series(buildStyles,watchTask)
-  exports.build = series(buildStyles,watchTask)
+  exports.build = series(buildStyles)
