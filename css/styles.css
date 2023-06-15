@@ -1,9 +1,16 @@
 body {
   font-family: sans-serif;
+  background-color: lightyellow;
 }
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    flex-direction: column;
+  }
 }
 
 .container {

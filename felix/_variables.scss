@@ -23,10 +23,10 @@ $colors: (
  
 
 
-@debug map-get($colors, "gray");
-@debug map-has-key($colors, 'carrot');
-@debug map-remove($colors, 'black');
-@debug map-merge($colors, ('black': #000));
+// @debug map-get($colors, "gray");
+// @debug map-has-key($colors, 'carrot');
+// @debug map-remove($colors, 'black');
+// @debug map-merge($colors, ('black': #000));
 
 // base padding
 $base-padding : 0.75rem;

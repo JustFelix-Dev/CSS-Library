@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: lightyellow;
 }
 
 ul{
@@ -14,4 +15,10 @@ a{
 
 img{
     max-width: 100%;
+}
+
+@media screen and (max-width:550px){
+    .navbar{
+        flex-direction: column;
+    }
 }
