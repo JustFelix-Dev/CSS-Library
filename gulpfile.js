@@ -14,7 +14,7 @@
   function buildStyles(){
       return src('felix/**/*.scss')
       .pipe(sass())
-      .pipe(purgecss({content:['dist/*.html']}))
+      .pipe(purgecss({content:['*.html']}))
       .pipe(dest('css'))
   }
 
