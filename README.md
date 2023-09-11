@@ -7,5 +7,5 @@ This repository contains a custom CSS library created using HTML, SASS, and Gulp
 - Gulp tasks for automated CSS compilation and watching for changes.
 - Easy integration into your existing web projects.
 
-https://res.cloudinary.com/dljgkzwfz/image/upload/v1694437109/Github%20ReadMe%20Screenshots/Screenshot_76_bqovtd.png
+   ![CSS Library](https://res.cloudinary.com/dljgkzwfz/image/upload/v1694437109/Github%20ReadMe%20Screenshots/Screenshot_76_bqovtd.png)
 
